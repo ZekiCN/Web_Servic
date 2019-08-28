@@ -26,6 +26,7 @@ public class Service {
 
     public static void main(String[] args) {
         Service s=new Service();
+        try {  
             s.receive();
         } catch (IOException e) {
             // TODO Auto-ge
